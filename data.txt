@@ -1,0 +1,18 @@
+#json
+#python syntaxes
+#python functions
+#list 
+#array
+#dictionary
+#sets
+#pointers
+#git lab for version control
+#jenkins for version control
+#git lab,github
+#how to clone a repo
+#how to push changes to repo
+#select 3 datasets from kaggle and perform some processing  and cleaning
+#1.nlp
+#2.copmuter vision
+#3.any
+#push activity program to github
