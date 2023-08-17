@@ -1,0 +1,14 @@
+from PIL import Image, ImageFilter
+#open an image using Pillow
+image_path="path/to /your/image.jpg"
+orignal_image=Image.open(image_path)
+#Display some information about the image
+print("Orignal Image Format:",orignal_image.format)
+print("Orignal Image Size:",orignal_image.size)
+#Apply a gaussian blur filter
+blurred_image=orignal_image.filter(ImageFilter.GaussianBlur(radius=2))
+#Save the modified image
+output_path="path/to/save/modified_image.jpg"
+blurred_image.save(output_path)
+#Display a message
+print("Image processed and saved to:",output_path)
